@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  min-width: 1200px;
 }
 header{
   width: 100%;
@@ -89,4 +90,8 @@ h4{
 .mainblock{
   display: inline-block;
   margin-right: 20px;
+}
+.mainblock:hover{
+  transition: transform 0.5s ease;
+  transform: scale(1.1);
 }
